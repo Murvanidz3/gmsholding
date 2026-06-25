@@ -13,7 +13,7 @@ if (session_status() === PHP_SESSION_NONE) {
 
 const ADMIN_USER = 'admin';
 // bcrypt hash of 'gms2026'. Regenerate with:  php -r "echo password_hash('NEW', PASSWORD_DEFAULT);"
-const ADMIN_PASS_HASH = '$2b$12$mXUCCqQfFb.MQFxESySQLOg9wEHPJN4.0gZ23OwVWsiA7vgBCWZZe';
+const ADMIN_PASS_HASH = '$2y$10$UV.pDZrlMMXw5YVWPwAeM.4soOrtzuaGb74y1lrTdITU47GTyKK5S';
 
 function admin_is_logged_in(): bool {
     return !empty($_SESSION['admin_authed']);
