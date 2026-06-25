@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------------------------------------------------------------
+   Base
+--------------------------------------------------------------- */
+@layer base {
+  html { scroll-behavior: smooth; }
+  body { @apply bg-dark text-white/80 font-body antialiased; }
+  h1, h2, h3, h4, h5 { @apply font-heading font-semibold text-white uppercase; }
+  ::selection { @apply bg-primary text-dark; }
+  ::-webkit-scrollbar { width: 10px; }
+  ::-webkit-scrollbar-track { @apply bg-dark-800; }
+  ::-webkit-scrollbar-thumb { @apply bg-dark-500 rounded-full; }
+  ::-webkit-scrollbar-thumb:hover { @apply bg-primary; }
+}
+
+/* ---------------------------------------------------------------
+   Reusable components
+--------------------------------------------------------------- */
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 px-7 py-4 font-heading font-medium uppercase tracking-wider2 text-sm transition-all duration-300 ease-out-expo;
+  }
+  .btn-primary { @apply btn bg-primary text-dark hover:bg-white hover:shadow-glow; }
+  .btn-outline { @apply btn border border-white/25 text-white hover:bg-primary hover:border-primary hover:text-dark; }
+
+  .eyebrow {
+    @apply inline-flex items-center gap-3 font-heading uppercase tracking-wider2 text-primary text-sm font-medium;
+  }
+  .eyebrow::before { content: ""; @apply h-px w-8 bg-primary inline-block; }
+
+  .reveal {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s cubic-bezier(0.16,1,0.3,1), transform 0.8s cubic-bezier(0.16,1,0.3,1);
+  }
+  .reveal.is-visible { opacity: 1; transform: translateY(0); }
+
+  .hero-overlay {
+    background: linear-gradient(90deg, rgba(15,16,20,0.78) 0%, rgba(15,16,20,0.45) 45%, rgba(15,16,20,0.10) 100%);
+  }
+}
+
+/* ---------------------------------------------------------------
+   Swiper overrides (scoped)
+--------------------------------------------------------------- */
+.hero-swiper .swiper-button-next,
+.hero-swiper .swiper-button-prev {
+  width: 60px; height: 60px;
+  border: 1px solid rgba(255,255,255,0.25);
+  color: #fff;
+  transition: all 0.3s cubic-bezier(0.16,1,0.3,1);
+}
+.hero-swiper .swiper-button-next:hover,
+.hero-swiper .swiper-button-prev:hover { background: #FFC400; border-color: #FFC400; color: #16181D; }
+.hero-swiper .swiper-button-next::after,
+.hero-swiper .swiper-button-prev::after { font-size: 18px; font-weight: 700; }
+.hero-swiper .swiper-pagination-bullet { width: 10px; height: 10px; background: #fff; opacity: 0.35; transition: all 0.3s; }
+.hero-swiper .swiper-pagination-bullet-active { background: #FFC400; opacity: 1; width: 28px; border-radius: 6px; }
+
+/* Testimonials pagination */
+.testimonials-swiper { padding-bottom: 4px; }
+.testimonials-swiper .swiper-pagination { display: flex; justify-content: center; gap: 8px; }
+.testimonials-swiper .swiper-pagination-bullet { width: 10px; height: 10px; background: #fff; opacity: 0.25; margin: 0 !important; transition: all 0.3s; }
+.testimonials-swiper .swiper-pagination-bullet-active { background: #FFC400; opacity: 1; width: 28px; border-radius: 6px; }
+.testimonials-swiper .swiper-slide { height: auto; }
+
+/* Active-slide content animation */
+.hero-swiper .swiper-slide-active .hero-anim > * { animation: fade-up 0.9s cubic-bezier(0.16,1,0.3,1) both; }
+.hero-swiper .swiper-slide-active .hero-anim > *:nth-child(1) { animation-delay: 0.15s; }
+.hero-swiper .swiper-slide-active .hero-anim > *:nth-child(2) { animation-delay: 0.30s; }
+.hero-swiper .swiper-slide-active .hero-anim > *:nth-child(3) { animation-delay: 0.45s; }
+.hero-swiper .swiper-slide-active .hero-anim > *:nth-child(4) { animation-delay: 0.60s; }
+.hero-swiper .swiper-slide-active .hero-bg { animation: ken-burns 7s ease-out both; }

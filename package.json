@@ -1,0 +1,13 @@
+{
+  "name": "gms-construction",
+  "version": "1.0.0",
+  "description": "GMS Construction - Pure PHP + Tailwind premium template",
+  "private": true,
+  "scripts": {
+    "dev": "tailwindcss -i ./src/input.css -o ./assets/css/style.css --watch",
+    "build": "tailwindcss -i ./src/input.css -o ./assets/css/style.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}

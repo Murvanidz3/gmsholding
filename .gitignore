@@ -1,0 +1,24 @@
+# Dependencies
+/node_modules
+/vendor
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
+.env
+
+# Temp / atomic-write artifacts
+*.tmp
+data/*.tmp
+data/backups/
+
+# Runtime content — NEVER overwrite the live server copies from git.
+# The JSON store and admin uploads are edited on the server via the admin panel.
+assets/img/uploads/*
+!assets/img/uploads/.gitkeep
+!assets/img/uploads/index.html
+
+# NOTE: compiled assets/css/style.css IS committed on purpose so the site
+# works even via Hostinger's native "git pull" (no build step on server).
+# The GitHub Actions pipeline also rebuilds it fresh before deploying.

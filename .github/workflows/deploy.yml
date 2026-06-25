@@ -1,0 +1,56 @@
+name: Build & Deploy to Hostinger
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:        # allow manual "Run workflow" from the Actions tab
+
+concurrency:                # never run two deploys at once
+  group: production
+  cancel-in-progress: true
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build Tailwind CSS (production, minified)
+        run: npm run build
+
+      - name: Verify project integrity (NUL bytes / JS / JSON)
+        run: node verify.js
+
+      - name: Deploy via FTPS
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server:    ${{ secrets.FTP_HOST }}
+          username:  ${{ secrets.FTP_USERNAME }}
+          password:  ${{ secrets.FTP_PASSWORD }}
+          server-dir: ${{ secrets.FTP_SERVER_DIR }}   # e.g. /public_html/
+          protocol:  ftps
+          # Runtime + dev files are never pushed (server keeps its own copies):
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/.github/**
+            **/node_modules/**
+            src/**
+            data/**
+            assets/img/uploads/**
+            *.bat
+            *.md
+            verify.js
+            package.json
+            package-lock.json
+            tailwind.config.js

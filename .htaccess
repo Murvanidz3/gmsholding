@@ -1,0 +1,11 @@
+# ---- GMS production hardening ----
+Options -Indexes
+
+# Block direct web access to the flat-file data store and source
+RedirectMatch 403 ^/data/.*\.(json|tmp)$
+RedirectMatch 403 ^/src/.*
+RedirectMatch 403 ^/\.git.*
+RedirectMatch 403 .*\.(bat|md)$
+
+# Default document
+DirectoryIndex index.php index.html
