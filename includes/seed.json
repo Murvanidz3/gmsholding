@@ -1,0 +1,692 @@
+{
+    "site": {
+        "name": "GMS GROUP",
+        "tagline": "Building Excellence",
+        "phone": "+995 511 14 14 95",
+        "email": "info@gmsholding.ge",
+        "address": "დიდი დიღომი, დემეტრე თავდადებულის ქუჩა N2, Tbilisi, Georgia, 0131",
+        "social": {
+            "facebook": "https://www.facebook.com/gmsgroupofficial",
+            "instagram": "https://www.instagram.com/gms_group_/",
+            "linkedin": "https://www.instagram.com/gms_group_/",
+            "youtube": "https://www.instagram.com/gms_group_/"
+        },
+        "hours": "Mon – Fri: 10:00 – 18:00"
+    },
+    "nav": [
+        {
+            "label": "Home",
+            "url": "index.php"
+        },
+        {
+            "label": "About",
+            "url": "#about"
+        },
+        {
+            "label": "Services",
+            "url": "#services"
+        },
+        {
+            "label": "Projects",
+            "url": "#projects"
+        },
+        {
+            "label": "Contact",
+            "url": "#contact"
+        }
+    ],
+    "hero_slides": [
+        {
+            "bg": "/assets/img/uploads/img_20260621_172309_de7f82.jpg",
+            "eyebrow": "Construction & Engineering",
+            "title": "We Build Your<br>Dreams Into Reality",
+            "text": "Premium construction services delivering precision, safety, and craftsmanship on every project, large or small.",
+            "cta_text": "Discover More",
+            "cta_url": "#about"
+        },
+        {
+            "bg": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=2000&auto=format&fit=crop",
+            "eyebrow": "Industrial Solutions",
+            "title": "Engineering The<br>Future Of Building",
+            "text": "From foundation to finish, our expert team turns ambitious blueprints into landmark structures.",
+            "cta_text": "Our Services",
+            "cta_url": "#services"
+        },
+        {
+            "bg": "https://images.unsplash.com/photo-1487958449943-2429e8be8625?q=80&w=2000&auto=format&fit=crop",
+            "eyebrow": "Trusted Since 1998",
+            "title": "Quality Work,<br>Built To Last",
+            "text": "Award-winning architecture and construction management backed by 25 years of proven results.",
+            "cta_text": "View Projects",
+            "cta_url": "#projects"
+        }
+    ],
+    "about": {
+        "eyebrow": "About GMS",
+        "title": "We Are Dedicated To Building A Better Future",
+        "text": "For over two decades, GMS has delivered landmark construction and engineering projects with uncompromising quality. Our integrated team manages every phase — from design and planning to execution and handover.",
+        "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=1400&auto=format&fit=crop",
+        "image_alt": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?q=80&w=900&auto=format&fit=crop",
+        "badge_num": 25,
+        "badge_txt": "Years of Experience",
+        "points": [
+            "Certified engineers & licensed contractors",
+            "Sustainable, modern building practices",
+            "Transparent budgeting & on-time delivery"
+        ],
+        "counters": [
+            {
+                "value": 1240,
+                "suffix": "+",
+                "label": "Projects Completed"
+            },
+            {
+                "value": 98,
+                "suffix": "%",
+                "label": "Client Satisfaction"
+            }
+        ],
+        "cta_text": "More About Us",
+        "cta_url": "#services",
+        "signature": "James Carter",
+        "role": "CEO & Founder"
+    },
+    "services_intro": {
+        "eyebrow": "What We Do",
+        "title": "Premium Construction Services",
+        "text": "End-to-end solutions engineered for durability, safety, and architectural excellence."
+    },
+    "services": [
+        {
+            "icon": "building",
+            "title": "Building Construction",
+            "text": "Commercial and residential builds delivered to the highest structural standards."
+        },
+        {
+            "icon": "ruler",
+            "title": "Architecture & Design",
+            "text": "Innovative, functional designs that balance aesthetics with engineering precision."
+        },
+        {
+            "icon": "crane",
+            "title": "Industrial Projects",
+            "text": "Large-scale industrial facilities built with advanced project management."
+        },
+        {
+            "icon": "helmet",
+            "title": "Renovation & Remodeling",
+            "text": "Transforming existing spaces with modern upgrades and flawless finishes."
+        },
+        {
+            "icon": "blueprint",
+            "title": "Project Planning",
+            "text": "Strategic planning, budgeting, and feasibility studies for every build."
+        },
+        {
+            "icon": "shield",
+            "title": "Safety Consulting",
+            "text": "Comprehensive site safety audits and compliance management."
+        }
+    ],
+    "projects_intro": {
+        "eyebrow": "Our Portfolio",
+        "title": "Recently Completed Projects",
+        "text": "A selection of landmark builds delivered across commercial, residential, and industrial sectors."
+    },
+    "projects": [
+        {
+            "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1200&auto=format&fit=crop",
+            "title": "Skyline Corporate Tower",
+            "category": "Commercial",
+            "url": "#",
+            "size": "lg"
+        },
+        {
+            "image": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=900&auto=format&fit=crop",
+            "title": "Lakeside Residences",
+            "category": "Residential",
+            "url": "#",
+            "size": "sm"
+        },
+        {
+            "image": "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?q=80&w=900&auto=format&fit=crop",
+            "title": "Metro Logistics Hub",
+            "category": "Industrial",
+            "url": "#",
+            "size": "sm"
+        },
+        {
+            "image": "https://images.unsplash.com/photo-1503387837-b154d5074bd2?q=80&w=900&auto=format&fit=crop",
+            "title": "Civic Arts Center",
+            "category": "Public",
+            "url": "#",
+            "size": "sm"
+        },
+        {
+            "image": "https://images.unsplash.com/photo-1592928038403-5c27bd11d535?q=80&w=900&auto=format&fit=crop",
+            "title": "Grand Hotel Renovation",
+            "category": "Hospitality",
+            "url": "#",
+            "size": "sm"
+        }
+    ],
+    "stats_band": {
+        "bg": "https://images.unsplash.com/photo-1590725140246-20acdee442be?q=80&w=2000&auto=format&fit=crop",
+        "eyebrow": "Why Choose Us",
+        "title": "Numbers That Speak For Themselves"
+    },
+    "stats": [
+        {
+            "value": 1240,
+            "suffix": "+",
+            "label": "Projects Completed"
+        },
+        {
+            "value": 350,
+            "suffix": "+",
+            "label": "Expert Workers"
+        },
+        {
+            "value": 25,
+            "suffix": "",
+            "label": "Years Experience"
+        },
+        {
+            "value": 48,
+            "suffix": "",
+            "label": "Awards Won"
+        }
+    ],
+    "testimonials_intro": {
+        "eyebrow": "Client Voices",
+        "title": "What Our Clients Say",
+        "text": "Trusted by developers, businesses, and homeowners across the region."
+    },
+    "testimonials": [
+        {
+            "text": "GMS delivered our corporate tower ahead of schedule and under budget. Their attention to structural detail and safety was outstanding from day one.",
+            "name": "Michael Reynolds",
+            "role": "CEO, Reynolds Group",
+            "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=300&auto=format&fit=crop",
+            "rating": 5
+        },
+        {
+            "text": "The team turned our ambitious design into reality with zero compromises. Communication was transparent throughout the entire build.",
+            "name": "Sophia Bennett",
+            "role": "Architect, BD Studio",
+            "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=300&auto=format&fit=crop",
+            "rating": 5
+        },
+        {
+            "text": "From planning to handover, GMS managed our industrial facility flawlessly. We have already commissioned them for our next project.",
+            "name": "David Okafor",
+            "role": "Operations Director, MetroLog",
+            "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=300&auto=format&fit=crop",
+            "rating": 5
+        },
+        {
+            "text": "Premium craftsmanship and a genuinely professional crew. Our hotel renovation exceeded every expectation we had set.",
+            "name": "Elena Vasquez",
+            "role": "GM, Grand Hotel",
+            "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=300&auto=format&fit=crop",
+            "rating": 5
+        }
+    ],
+    "team_intro": {
+        "eyebrow": "Our Experts",
+        "title": "Meet The Team",
+        "text": "Skilled engineers, architects, and managers driving every project forward."
+    },
+    "team": [
+        {
+            "name": "James Carter",
+            "role": "CEO & Founder",
+            "photo": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=600&auto=format&fit=crop",
+            "social": {
+                "facebook": "#",
+                "twitter": "#",
+                "linkedin": "#"
+            }
+        },
+        {
+            "name": "Olivia Hayes",
+            "role": "Lead Architect",
+            "photo": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=600&auto=format&fit=crop",
+            "social": {
+                "facebook": "#",
+                "twitter": "#",
+                "linkedin": "#"
+            }
+        },
+        {
+            "name": "Daniel Brooks",
+            "role": "Site Engineer",
+            "photo": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=600&auto=format&fit=crop",
+            "social": {
+                "facebook": "#",
+                "twitter": "#",
+                "linkedin": "#"
+            }
+        },
+        {
+            "name": "Grace Miller",
+            "role": "Project Manager",
+            "photo": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?q=80&w=600&auto=format&fit=crop",
+            "social": {
+                "facebook": "#",
+                "twitter": "#",
+                "linkedin": "#"
+            }
+        }
+    ],
+    "contact": {
+        "eyebrow": "Get In Touch",
+        "title": "Let’s Build Something Great Together",
+        "text": "Tell us about your project and our team will get back to you within 24 hours.",
+        "cards": [
+            {
+                "icon": "pin",
+                "label": "Our Office",
+                "value": "დიდი დიღომი, დემეტრე თავდადებულის ქუჩა N2, Tbilisi, Georgia, 0131",
+                "href": ""
+            },
+            {
+                "icon": "phone",
+                "label": "Call Us",
+                "value": "+995 511 14 14 95",
+                "href": "tel:+995511141495"
+            },
+            {
+                "icon": "mail",
+                "label": "Email Us",
+                "value": "info@gmsholding.ge",
+                "href": "mailto:info@gmsholding.ge"
+            },
+            {
+                "icon": "clock",
+                "label": "Working Hours",
+                "value": "Mon – Fri: 10:00 – 18:00",
+                "href": ""
+            }
+        ],
+        "map_embed": "https://www.google.com/maps?q=New+York&output=embed",
+        "subjects": [
+            "General Inquiry",
+            "Request a Quote",
+            "Partnership",
+            "Careers"
+        ]
+    },
+    "unit_explorer": {
+        "eyebrow": "Find Your Home",
+        "title": "Explore Our Developments",
+        "text": "Browse our completed and ongoing developments side by side. Hover a building to highlight floors, then pick an apartment to see its plan, specs and availability.",
+        "projects": [
+            {
+                "id": "skyline",
+                "name": "Skyline Residences",
+                "status": "completed",
+                "location": "Downtown, New York",
+                "building_image": "/assets/img/uploads/img_20260621_214236_f2796f.jpg",
+                "floors": [
+                    {
+                        "id": "sk-f3",
+                        "name": "Penthouse Floor",
+                        "label": "PH",
+                        "polygon": [
+                            [
+                                24,
+                                16
+                            ],
+                            [
+                                76,
+                                16
+                            ],
+                            [
+                                78,
+                                30
+                            ],
+                            [
+                                22,
+                                30
+                            ]
+                        ],
+                        "plan_image": "https://images.unsplash.com/photo-1503594384566-461fe158e797?q=80&w=1400&auto=format&fit=crop",
+                        "apartments": [
+                            {
+                                "id": "sk-ph-a",
+                                "code": "PH-A",
+                                "polygon": [
+                                    [
+                                        8,
+                                        12
+                                    ],
+                                    [
+                                        48,
+                                        12
+                                    ],
+                                    [
+                                        48,
+                                        80
+                                    ],
+                                    [
+                                        8,
+                                        80
+                                    ]
+                                ],
+                                "render": "https://images.unsplash.com/photo-1567767292278-a4f21aa2d36e?q=80&w=900&auto=format&fit=crop",
+                                "rooms": 4,
+                                "area": 180,
+                                "price": "$1,250,000",
+                                "status": "available"
+                            },
+                            {
+                                "id": "sk-ph-b",
+                                "code": "PH-B",
+                                "polygon": [
+                                    [
+                                        52,
+                                        12
+                                    ],
+                                    [
+                                        92,
+                                        12
+                                    ],
+                                    [
+                                        92,
+                                        80
+                                    ],
+                                    [
+                                        52,
+                                        80
+                                    ]
+                                ],
+                                "render": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?q=80&w=900&auto=format&fit=crop",
+                                "rooms": 4,
+                                "area": 175,
+                                "price": "$1,190,000",
+                                "status": "reserved"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "sk-f2",
+                        "name": "Floor 8",
+                        "label": "08",
+                        "polygon": [
+                            [
+                                22,
+                                32
+                            ],
+                            [
+                                78,
+                                32
+                            ],
+                            [
+                                80,
+                                50
+                            ],
+                            [
+                                20,
+                                50
+                            ]
+                        ],
+                        "plan_image": "https://images.unsplash.com/photo-1503594384566-461fe158e797?q=80&w=1400&auto=format&fit=crop",
+                        "apartments": [
+                            {
+                                "id": "sk-8-a",
+                                "code": "8A",
+                                "polygon": [
+                                    [
+                                        8,
+                                        12
+                                    ],
+                                    [
+                                        38,
+                                        12
+                                    ],
+                                    [
+                                        38,
+                                        80
+                                    ],
+                                    [
+                                        8,
+                                        80
+                                    ]
+                                ],
+                                "render": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?q=80&w=900&auto=format&fit=crop",
+                                "rooms": 2,
+                                "area": 78,
+                                "price": "$540,000",
+                                "status": "sold"
+                            },
+                            {
+                                "id": "sk-8-b",
+                                "code": "8B",
+                                "polygon": [
+                                    [
+                                        40,
+                                        12
+                                    ],
+                                    [
+                                        64,
+                                        12
+                                    ],
+                                    [
+                                        64,
+                                        80
+                                    ],
+                                    [
+                                        40,
+                                        80
+                                    ]
+                                ],
+                                "render": "https://images.unsplash.com/photo-1493809842364-78817add7ffb?q=80&w=900&auto=format&fit=crop",
+                                "rooms": 3,
+                                "area": 102,
+                                "price": "$690,000",
+                                "status": "available"
+                            },
+                            {
+                                "id": "sk-8-c",
+                                "code": "8C",
+                                "polygon": [
+                                    [
+                                        66,
+                                        12
+                                    ],
+                                    [
+                                        92,
+                                        12
+                                    ],
+                                    [
+                                        92,
+                                        80
+                                    ],
+                                    [
+                                        66,
+                                        80
+                                    ]
+                                ],
+                                "render": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?q=80&w=900&auto=format&fit=crop",
+                                "rooms": 2,
+                                "area": 74,
+                                "price": "$510,000",
+                                "status": "available"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "horizon",
+                "name": "Horizon Towers",
+                "status": "ongoing",
+                "location": "Riverside, New York",
+                "building_image": "/assets/img/uploads/img_20260621_214328_2e9ed2.jpg",
+                "floors": [
+                    {
+                        "id": "hz-f2",
+                        "name": "Sky Lounge Level",
+                        "label": "20",
+                        "polygon": [
+                            [
+                                30,
+                                14
+                            ],
+                            [
+                                70,
+                                14
+                            ],
+                            [
+                                72,
+                                28
+                            ],
+                            [
+                                28,
+                                28
+                            ]
+                        ],
+                        "plan_image": "https://images.unsplash.com/photo-1503594384566-461fe158e797?q=80&w=1400&auto=format&fit=crop",
+                        "apartments": [
+                            {
+                                "id": "hz-20-a",
+                                "code": "20A",
+                                "polygon": [
+                                    [
+                                        10,
+                                        14
+                                    ],
+                                    [
+                                        50,
+                                        14
+                                    ],
+                                    [
+                                        50,
+                                        82
+                                    ],
+                                    [
+                                        10,
+                                        82
+                                    ]
+                                ],
+                                "render": "https://images.unsplash.com/photo-1505691938895-1758d7feb511?q=80&w=900&auto=format&fit=crop",
+                                "rooms": 3,
+                                "area": 120,
+                                "price": "From $820,000",
+                                "status": "available"
+                            },
+                            {
+                                "id": "hz-20-b",
+                                "code": "20B",
+                                "polygon": [
+                                    [
+                                        52,
+                                        14
+                                    ],
+                                    [
+                                        90,
+                                        14
+                                    ],
+                                    [
+                                        90,
+                                        82
+                                    ],
+                                    [
+                                        52,
+                                        82
+                                    ]
+                                ],
+                                "render": "https://images.unsplash.com/photo-1484154218962-a197022b5858?q=80&w=900&auto=format&fit=crop",
+                                "rooms": 3,
+                                "area": 118,
+                                "price": "From $810,000",
+                                "status": "available"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "hz-f1",
+                        "name": "Floor 10",
+                        "label": "10",
+                        "polygon": [
+                            [
+                                26,
+                                30
+                            ],
+                            [
+                                74,
+                                30
+                            ],
+                            [
+                                76,
+                                48
+                            ],
+                            [
+                                24,
+                                48
+                            ]
+                        ],
+                        "plan_image": "https://images.unsplash.com/photo-1503594384566-461fe158e797?q=80&w=1400&auto=format&fit=crop",
+                        "apartments": [
+                            {
+                                "id": "hz-10-a",
+                                "code": "10A",
+                                "polygon": [
+                                    [
+                                        10,
+                                        14
+                                    ],
+                                    [
+                                        46,
+                                        14
+                                    ],
+                                    [
+                                        46,
+                                        82
+                                    ],
+                                    [
+                                        10,
+                                        82
+                                    ]
+                                ],
+                                "render": "https://images.unsplash.com/photo-1554995207-c18c203602cb?q=80&w=900&auto=format&fit=crop",
+                                "rooms": 2,
+                                "area": 68,
+                                "price": "From $430,000",
+                                "status": "reserved"
+                            },
+                            {
+                                "id": "hz-10-b",
+                                "code": "10B",
+                                "polygon": [
+                                    [
+                                        48,
+                                        14
+                                    ],
+                                    [
+                                        90,
+                                        14
+                                    ],
+                                    [
+                                        90,
+                                        82
+                                    ],
+                                    [
+                                        48,
+                                        82
+                                    ]
+                                ],
+                                "render": "https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?q=80&w=900&auto=format&fit=crop",
+                                "rooms": 2,
+                                "area": 71,
+                                "price": "From $445,000",
+                                "status": "available"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

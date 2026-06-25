@@ -25,6 +25,23 @@ function gms_load_content() {
     static $cache = null;
     if ($cache !== null) return $cache;
 
+    // Self-seed: on a fresh server the live store (data/) isn't deployed, so
+    // create it from the bundled includes/seed.json. If data/ isn't writable,
+    // fall back to reading the seed directly so the front-end still renders.
+    if (!is_readable(DATA_FILE)) {
+        $seed = __DIR__ . '/seed.json';
+        if (is_readable($seed)) {
+            $dir = dirname(DATA_FILE);
+            if (!is_dir($dir)) { @mkdir($dir, 0775, true); }
+            @copy($seed, DATA_FILE);
+            if (!is_readable(DATA_FILE)) {
+                $raw  = file_get_contents($seed);
+                $data = json_decode($raw, true);
+                return $cache = (json_last_error() === JSON_ERROR_NONE && is_array($data)) ? $data : [];
+            }
+        }
+    }
+
     if (!is_readable(DATA_FILE)) { return $cache = []; }
     $raw = file_get_contents(DATA_FILE);
     $data = json_decode($raw, true);
