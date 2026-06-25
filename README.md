@@ -35,5 +35,5 @@ Set `BASE_URL` in `includes/config.php` if running from a subdirectory.
 
 ## Phase 2 hook
 All content lives in `$site`, `$nav`, `$hero_slides` in `config.php`. The admin panel
-swaps that array for DB/JSON — markup stays untouched.
+swaps that array for DB/JSON — markup stays untouched..
 ```
