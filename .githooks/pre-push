@@ -1,0 +1,17 @@
+#!/bin/sh
+# Auto-sync before push so "git push" never fails on non-fast-forward.
+set -e
+
+branch="${1:-main}"
+remote="${2:-origin}"
+
+git fetch "$remote" "$branch" 2>/dev/null || exit 0
+
+behind=$(git rev-list --count "HEAD..$remote/$branch" 2>/dev/null || echo 0)
+if [ "$behind" = "0" ]; then
+  exit 0
+fi
+
+echo "pre-push: pulling $behind commit(s) from $remote/$branch (local wins on conflict)..."
+git pull "$remote" "$branch" --no-rebase -X ours --no-edit \
+  || git pull "$remote" "$branch" --no-rebase -X ours --no-edit --allow-unrelated-histories
